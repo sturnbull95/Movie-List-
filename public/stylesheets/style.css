@@ -6,20 +6,11 @@ h2 {
 	margin: auto;
 }
 
-form { 
+form {
 	margin: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	display: inline-block;
-}
-
-form#create-form > div {
-	text-align: left;
-	padding: 5px;
-}
-
-form#create-form label {
-	display: block;
 }
 
 /* table styles */
