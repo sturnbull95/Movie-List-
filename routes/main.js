@@ -41,7 +41,7 @@ function createNew(){
   var director = document.getElementById('movieDirector').value;
   var year = document.getElementById('movieYear').value;
   req.onreadystatechange = function(){
-    if(this.readyState == 4 && this.status == 200){
+    if (req.status >= 200 && req.status < 400){
       var jObj = JSON.parse(this.responseText);
       if(jObj.true){
         console.log("Save Successful");
